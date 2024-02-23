@@ -1,0 +1,75 @@
+.breadcrumbs {
+  position: relative;
+  z-index: 3;
+  color: $light-gray;
+  padding: $ic-200 0;
+}
+
+.breadcrumbs__inner {
+  display: flex;
+  flex-wrap: nowrap;
+  block-size: 20px;
+  overflow: hidden;
+  align-items: center;
+}
+
+.breadcrumbs svg {
+  position: relative;
+  top: -2px;
+  fill: $light-gray;
+  inline-size: $ic-100;
+  block-size: $ic-100;
+}
+
+.breadcrumbs__nav {
+  flex-wrap: nowrap;
+  overflow-y: hidden;
+  padding: $ic-100 0;
+  margin: 0;
+}
+
+.breadcrumbs__list-item {
+  list-style-type: none;
+  position: relative;
+  font-size: $ic--100;
+  max-width: none;
+  margin: 0;
+
+  &::after {
+    position: absolute;
+    content: "/";
+  }
+
+  a {
+    color: $light-gray;
+    text-decoration: none;
+    font-size: $ic--100;
+    padding: 0 $ic--100;
+    white-space: nowrap;
+  }
+}
+
+.breadcrumbs .active {
+  &::after {
+    position: absolute;
+    content: "";
+  }
+
+  a {
+    color: rgba($light-gray, 0.6);
+    pointer-events: none;
+  }
+}
+
+.parent-page-products:not(.page-id-a5de17d55a9b80cdac731fa24e6c61ab) .breadcrumbs__inner {
+  padding-inline: 0;
+}
+
+.parent-page-products:not(.page-id-a5de17d55a9b80cdac731fa24e6c61ab) .breadcrumbs svg {
+  fill: $primary-color;
+}
+
+.parent-page-products:not(.page-id-a5de17d55a9b80cdac731fa24e6c61ab) .breadcrumbs__list-item,
+.parent-page-products:not(.page-id-a5de17d55a9b80cdac731fa24e6c61ab) .breadcrumbs__list-item a {
+  color: $primary-color;
+}

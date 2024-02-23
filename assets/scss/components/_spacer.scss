@@ -1,0 +1,4 @@
+.spacer {
+    padding-block: 4%;
+    padding-block: clamp($ic-300, 4%, $ic-600);
+}

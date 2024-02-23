@@ -1,0 +1,25 @@
+.flow > * + * {
+  margin-top: $ic-300;
+}
+
+.flow span + h1,
+.flow span + h2 {
+  margin-block-start: 0;
+}
+
+.flow h1 + p,
+.flow h2 + p,
+.flow h3 + p {
+  margin-block-start: $ic-200
+}
+
+.flow p + h2,
+.flow p + h3,
+.flow ul + h2,
+.flow ul + h3,
+.flow ol + h2,
+.flow ol + h3,
+.flow div + h2,
+.flow div + h3 {
+  margin-block-start: $ic-600;
+}

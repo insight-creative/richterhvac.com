@@ -1,0 +1,47 @@
+{{ if eq .Title "Home" }}
+<section class="hero hero--home w-100" aria-labelledby="hero-heading">
+  <div class="hero__content w-100-m wrapper-lg flex flex-column flex-row-m flex-center">
+    <div class="w-100 w-60-m flow text-color-white">
+      <h1 class="no-margin" id="hero-heading">{{ .Params.hero.heading }}</h1>
+      <p class="hero__body">{{ .Params.hero.body }}</p>
+      <div class="hero__carrier-logo">
+        <img src="/uploads/bryant-heating-and-cooling-logo-white.svg" alt="Bryant Logo" width="300" height="100">
+      </div>
+    </div>
+    <div class="w-100 w-40-m">
+    </div>
+  </div>
+  <div class="hero__service-request w-100 w-40-m">
+    {{ partial "request-service" . }}
+  </div>
+</section>
+{{ else }}
+{{ $heroClass := lower .Page.Title }}
+<div class="hero hero--{{ anchorize $heroClass }}">
+  {{ with .Params.hero.image }}
+    {{ partial "responsive-image-hero" . }}
+  {{ end }}
+  <div class="hero__content">
+    <div class="wrapper text-align-center text-color-white flow">
+      {{ if .Params.hero.heading }}
+      <h1 class="hero__title short-hero__title text-white no-margin">
+        {{ .Params.hero.heading }}
+      </h1>
+      {{ else }}
+      <h1 class="hero__title short-hero__title text-white no-margin">
+        {{ .Page.Title }}
+      </h1>
+      {{ end }}
+      {{ if .Params.hero.body }}
+      <p>
+        {{ .Params.hero.body }}
+      </p>
+      {{ end }}
+    </div>
+  </div>
+  <div class="hero__overlay"></div>
+</div>
+<div class="bg-primary">
+  {{ partial "breadcrumbs" . }}
+</div>
+{{ end }}

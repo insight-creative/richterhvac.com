@@ -1,0 +1,22 @@
+.business-info__col-content {
+  margin-left: $ic-200;
+}
+
+.business-info__address {
+  margin-left: 0;
+}
+
+.business-info p {
+  margin: 0;
+  font-size: $ic-100;
+}
+
+.business-info a {
+  text-decoration: none;
+  color: $black;
+}
+
+.business-info .icon-lg {
+  position: relative;
+  top: 4px;
+}

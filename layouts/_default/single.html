@@ -1,0 +1,19 @@
+{{ define "main" }}
+    {{ partial "hero" .  }}
+    {{ if .Content  }}
+    <div class="block">
+        <div class="wrapper flow">
+            {{ .Content  }}
+        </div>
+    </div>
+    {{ end }}
+    {{ partial "full-width-feature" . }}
+    {{ if eq .Title "Apply Now" }}
+        <div class="block">
+            <div class="wrapper">
+                {{ partial "forms/application-form" . }}
+            </div>
+        </div>
+    {{ end }}
+    {{ partial "cta" . }}
+{{ end }}

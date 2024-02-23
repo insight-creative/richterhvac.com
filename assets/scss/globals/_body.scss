@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+  max-width: $measure-long;
+}
+
+html,
+body,
+div,
+picture,
+section,
+ol,
+header,
+nav,
+main,
+footer,
+.max-width-none {
+  max-width: none;
+}
+
+body {
+  background-color: $white;
+  font-family: $primary-font;
+  overflow-x: hidden;
+}
+
+.site-main {
+  opacity: 1;
+  margin-top: 109px;
+
+  @include breakpoint(md) {
+    margin-top: $desktopHeader;
+  }
+}
+
+// Style highlight to match our themes colors
+::-moz-selection {
+  background: rgba($primary-color, 0.8);
+  color: $white;
+}
+
+::selection {
+  background: rgba($primary-color, 0.8);
+  color: $white;
+}
+
+::-ms-selection {
+  background: rgba($primary-color, 0.8);
+  color: $white;
+}
+
+body::-webkit-scrollbar {
+  width: $scrollbar-width;
+}
+
+body::-webkit-scrollbar-track {
+  background: $light-gray;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: $primary-color;
+}

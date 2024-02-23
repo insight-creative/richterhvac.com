@@ -1,0 +1,35 @@
+.products-list {
+  margin-block: 0;
+  padding-inline-start: 0;
+}
+
+.products-list__item {
+  position: relative;
+  border: 1px solid $primary-color;
+  padding: $ic-300;
+  margin-top: 0;
+  block-size: 100%;
+  inline-size: 100%;
+  list-style-type: none;
+  transition: $transition;
+
+  &:hover,
+  &:focus {
+    transform: translateY(-5px);
+    box-shadow: 5px 5px 25px rgba(25, 25, 96, 0.25);
+  }
+}
+
+.products-list__link::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  block-size: 100%;
+  inline-size: 100%;
+  z-index: 1;
+}
+
+.products__wrapper {
+  margin-block: $ic-700;
+}

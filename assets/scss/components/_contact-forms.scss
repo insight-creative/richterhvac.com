@@ -1,0 +1,105 @@
+.page-home .hero .contact-form-wrapper {
+  @include breakpoint(md) {
+    position: relative;
+    bottom: -250px;
+    inline-size: 100%;
+  }
+
+  @include breakpoint(lg) {
+    bottom: -300px;
+  }
+}
+
+.contact-form {
+  background-color: $primary-color;
+  color: white;
+  padding: $ic-600;
+  // border-top-left-radius: $radius;
+  // border-bottom-left-radius: $radius;
+  box-shadow: 8px 8px 48px rgba(25, 25, 96, 0.25);
+
+  &__form-group input {
+    block-size: $ic-600;
+  }
+
+  &__form-group textarea {
+    block-size: $ic-1000;
+  }
+
+  &__btn {
+    border: none;
+  }
+}
+
+.contact {
+  .contact-form {
+    block-size: 100%;
+  }
+}
+
+// .page-contact .contact-form {
+//   border-radius: $radius;
+// }
+
+.contact-form__row-wrapper {
+  display: flex;
+  flex-direction: column;
+
+  @include breakpoint(md) {
+    flex-direction: row;
+
+    .contact-form__form-group {
+      flex: 50%;
+    }
+
+    .contact-form__form-group:nth-of-type(2) {
+      padding-left: 1rem;
+    }
+  }
+}
+
+.contact-form__form-group label {
+  font-size: $ic-100;
+  font-weight: 700;
+}
+
+.contact-form__btn {
+  border: none;
+}
+
+.contact-form__form-group input,
+.contact-form__form-group textarea,
+.contact-form__form-group select {
+  background-color: $secondary-color;
+  border: none;
+  inline-size: 100%;
+  padding: $ic-100 $ic-200;
+  margin-bottom: $ic-100;
+  block-size: $ic-700;
+
+  &:focus {
+    outline: 2px solid $primary-color;
+  }
+}
+
+.contact-form__form-group textarea {
+  block-size: $ic-1000;
+}
+
+form.hidden {
+  display: none;
+}
+
+.contact-sidebar iframe {
+  inline-size: 100%;
+  block-size: 350px;
+}
+
+.contact-form__call-link {
+  color: $white;
+
+  &:hover, 
+  &:focus {
+    color: $secondary-color;
+  }
+}

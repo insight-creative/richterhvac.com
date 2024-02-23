@@ -1,0 +1,116 @@
+.hero {
+  display: grid;
+  place-items: center;
+  // block-size: 40vh;
+  // max-height: 600px;
+  overflow: hidden;
+  position: relative;
+}
+
+.hero > * {
+  grid-area: 1 / -1;
+}
+
+.hero__image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  block-size: 100%;
+  inline-size: 100%;
+  object-fit: cover;
+}
+
+.hero__title {
+  margin-inline: auto;
+}
+
+.hero__body {
+  font-size: $ic-300;
+  font-size: clamp($ic-200, 4vw, $ic-300);
+  font-weight: 500;
+}
+
+.hero__carrier-logo {
+  max-width: 150px;
+}
+
+.hero__service-request {
+  display: none;
+
+  @include breakpoint(md) {
+    display: block;
+    position: relative;
+    z-index: 2;
+    margin-top: $ic-400;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+}
+
+.hero__content {
+  position: relative;
+  z-index: 2;
+  padding-block: 5%;
+  padding-block: clamp($ic-600, 10%, $ic-1000);
+}
+
+.hero__overlay {
+  block-size: 100%;
+  inline-size: 100%;
+  background-color: rgba($black, .8);
+}
+
+.hero--home {
+  display: flex;
+  flex-direction: column;
+  block-size: 100%;
+  max-height: 1500px;
+  overflow: visible;
+  background-image: url("/uploads/background-images/home-hero-mobile.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  padding: $ic-700 $ic-200;
+  position: relative;
+  z-index: 1;
+
+  @include breakpoint(md) {
+    background-image: url("/uploads/background-images/home-hero-laptop.jpg");
+    block-size: 80vh;
+    flex-direction: row;
+  }
+
+  @include breakpoint(lg) {
+    background-image: url("/uploads/background-images/home-hero.jpg");
+  }
+
+  &::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    block-size: 100%;
+    inline-size: 100%;
+    // background-color: $blue-overlay-70;
+    background-image: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.8) 0%,
+      rgba(0, 0, 0, 0.2) 100%
+    );
+  }
+
+  .hero__content {
+    padding: $ic-600 0;
+
+    @include breakpoint(md) {
+      padding: 0;
+    }
+
+    h1 {
+      color: $white;
+    }
+  }
+}
