@@ -6,14 +6,19 @@ menu:
 seo:
   page_title: Fireplace Installation and Repair Services in Watertown, WI
   meta_description: Installation and repair of fireplaces for new constructions and existing commercial and residential properties.
-  featured_image: /services-hero-2500_nvfeko.jpg
+  featured_image: /uploads/gas-fireplace-in-living-room-1000.jpg
   featured_image_alt: Bryant salesperson meeting with homeowners at kitchen table
 hero: 
   heading: Fireplace Installation and Repair Services
   body: Installation and repair of fireplaces for new constructions and existing commercial and residential properties.
   image: 
-    image_url: /services-hero-2500_nvfeko.jpg
+    image_url: /uploads/gas-fireplace-in-living-room
     image_alt: Bryant salesperson meeting with homeowners at kitchen table
+  button:
+    enabled: true
+    button_url: /contact/ 
+    button_text:  Request Service
+    open_in_new_tab: false
 ---
 
 

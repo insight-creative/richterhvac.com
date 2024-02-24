@@ -2,7 +2,7 @@
   background-color: $primary-color;
   color: $white;
   padding: $ic-200;
-  font-size: $ic-100;
+  font-size: clamp($ic--200, 3vw, $ic-100);
 }
 
 .footer__copyright-wrapper {
@@ -39,10 +39,15 @@
 
 .footer__nav-item {
   color: $white;
+  padding-block: $ic--100; 
+
+  @include breakpoint(md)  {
+    padding-block: 0;
+  }
 
   &:hover,
   &:focus {
-    color: $accent-color;
+    color: $black;
   }
 }
 
@@ -51,8 +56,11 @@
   margin-top: 0;
 }
 
-@include breakpoint(md)  {
-  .footer__credits {
+.footer__credits {
+  padding-block: 0 $ic--100;
+
+  @include breakpoint(md)  {
     margin-left: auto;
+    padding-block: 0;
   }
 }

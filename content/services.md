@@ -1,20 +1,25 @@
 ---
 title: Services
+layout: services
 menu:
   main:
     weight: 2
-layout: services
 seo:
   page_title: Heating and Cooling Repair Services in Watertown, WI
   meta_description: Whether it's routine maintenance or emergency repairs, our team of certified HVAC professionals is dedicated to ensuring comfort in your home all year round. Call us today!
-  featured_image: /services-hero-2500_nvfeko.jpg
+  featured_image: /uploads/bryant-technician-installing-new-air-conditioner.jpg
   featured_image_alt: Bryant salesperson meeting with homeowners at kitchen table
 hero: 
   heading: Complete Heating and Cooling Services
   body: Whether it's routine maintenance or emergency repairs, our team of certified HVAC professionals is dedicated to ensuring comfort in your home all year round.
   image: 
-    image_url: /services-hero-2500_nvfeko.jpg
+    image_url: /uploads/bryant-technician-installing-new-air-conditioner
     image_alt: Bryant salesperson meeting with homeowners at kitchen table
+  button:
+    enabled: true
+    button_url: /contact/ 
+    button_text:  Request Service
+    open_in_new_tab: false
 intro: 
   heading: 24/7 Emergency HVAC Service
   body: Our service department is ready to service your commercial or residential equipment any time, day or night. Richter Heating and Air Conditioning offers flat rate pricing to provide our customers with the best value. We service all brands of equipment, and our service trucks have access to a large inventory of repair parts to save the customer time and money.
@@ -60,9 +65,9 @@ benefits:
 
     * Competitive pricing
 
-    * Financing Options Available
+    * Financing options available
   image: 
-    image_url: /services-hero-2500_nvfeko.jpg
+    image_url: /uploads/woman-baking-cupcakes-with-kids.jpg
     image_alt: Bryant salesperson meeting with homeowners at kitchen table
 cooling_checklist: 
   heading: Cooling Preventative Maintenance Checklist

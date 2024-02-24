@@ -6,14 +6,19 @@ menu:
 seo:
   page_title: 
   meta_description: Learn more about the HVAC professionals at Richter Heating & Air Conditioning, Inc. Our team is ready to help you - call us today to schedule an appointment!
-  featured_image: /about-hero-2500_ubaahv.jpg
+  featured_image: /uploads/bryant-technician-demonstrating-filter-replacement-1000.jpg
   featured_image_alt: Bryant technician talking with homeowner while checking compression of air conditioner
 hero: 
   heading:
   body: HVAC repair and installation company in Jefferson or Dodge County
   image: 
-    image_url: /about-hero-2500_ubaahv.jpg
+    image_url: /uploads/bryant-technician-demonstrating-filter-replacement
     image_alt: Bryant technician talking with homeowner while checking compression of air conditioner
+  button:
+    enabled: true
+    button_url: /contact/ 
+    button_text:  Request Service
+    open_in_new_tab: false
 ---
 
 <div>

@@ -16,32 +16,27 @@
   </div>
 </section>
 {{ else }}
-{{ $heroClass := lower .Page.Title }}
-<div class="hero hero--{{ anchorize $heroClass }}">
-  {{ with .Params.hero.image }}
-    {{ partial "responsive-image-hero" . }}
-  {{ end }}
-  <div class="hero__content">
-    <div class="wrapper text-align-center text-color-white flow">
-      {{ if .Params.hero.heading }}
-      <h1 class="hero__title short-hero__title text-white no-margin">
-        {{ .Params.hero.heading }}
-      </h1>
-      {{ else }}
-      <h1 class="hero__title short-hero__title text-white no-margin">
-        {{ .Page.Title }}
-      </h1>
-      {{ end }}
-      {{ if .Params.hero.body }}
-      <p>
-        {{ .Params.hero.body }}
-      </p>
-      {{ end }}
-    </div>
-  </div>
-  <div class="hero__overlay"></div>
-</div>
-<div class="bg-primary">
+<div>
   {{ partial "breadcrumbs" . }}
 </div>
+<section class="hero--split bg-primary" aria-labelledby="{{ .Params.hero.heading | urlize }}">
+  <div class="hero--split__content text-color-white flow">
+    <h1 class="no-margin" id="{{ .Params.hero.heading | urlize }}">{{ if .Params.hero.heading }}{{ .Params.hero.heading }}{{ else }}{{ .Title }}{{ end }}</h1>
+    {{ if in .Params.hero.body "\n" }}
+        {{ .Params.hero.body | markdownify }}
+    {{ else }}
+        <p>{{ .Params.hero.body | markdownify }}</p>
+    {{ end }}
+    {{ if .Params.hero.button.enabled }}
+      {{ with .Params.hero.button }}
+          <a class="btn btn--white" href="{{ .button_url }}" {{ if .open_in_new_tab }}target="_blank"{{ end }}>{{ .button_text }}</a>
+      {{ end }}
+    {{ end }}
+  </div>
+  <div class="hero--split__image">
+    {{ with .Params.hero.image }}
+      {{ partial "responsive-image-hero" . }}
+    {{ end }}
+  </div>
+</section>
 {{ end }}

@@ -6,14 +6,19 @@ menu:
 seo:
   page_title: Heating and Cooling Company in Watertown, WI
   meta_description: Learn more about the HVAC professionals at Richter Heating & Air Conditioning, Inc. Our team is ready to help you - call us today to schedule an appointment!
-  featured_image: /about-hero-2500_ubaahv.jpg
+  featured_image: /uploads/adam-and-bill-richter-1000.jpg
   featured_image_alt: Bryant technician talking with homeowner while checking compression of air conditioner
 hero: 
   heading: Heating and Cooling Company in Watertown, WI
   body: Professionally trained technicians servicing all brands, makes and models.
   image: 
-    image_url: /about-hero-2500_ubaahv.jpg
+    image_url: /uploads/adam-and-bill-richter
     image_alt: Bryant technician talking with homeowner while checking compression of air conditioner
+  button:
+    enabled: true
+    button_url: /contact/ 
+    button_text:  Request Service
+    open_in_new_tab: false
 ---
 
 <div>

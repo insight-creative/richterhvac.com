@@ -1,11 +1,6 @@
 {{ define "main" }}
     {{ partial "hero" .  }}
-<div class="cta-full-width bg-secondary text-color-white">
-    <div class="wrapper-lg flex flex-column flex-row-m gap-md flex-start flex-center-m flex-justify-between">
-        <p><span class="h4 fw-700">Need Emergency Service?</span> We're here to help. Call us now.</p>
-        <a class="btn btn--white" href="tel:{{ .Site.Data.site_settings.phone }}">{{ .Site.Data.site_settings.phone }}</a>
-    </div>
-</div>
+    {{ partial "emergency-cta" .  }}
     {{ if .Params.intro }}
         {{ with .Params.intro }}
             {{ partial "intro" .  }}
@@ -22,22 +17,17 @@
             <section class="media-text-block media-text-block--text-left block bg-gray" aria-labelledby="{{ .heading | urlize }}">
                 <div class="wrapper-lg grid gap-lg">
                     <div class="grid-12 grid-5-md block flow">
-                        <h2 class="no-margin" id="{{ .heading | urlize }}">{{ .heading }}</h2>
+                        <div>
+                            <h2 class="no-margin" id="{{ .heading | urlize }}">{{ .heading }}</h2>
+                            <div class="underline"></div>
+                        </div>
                         {{ if .body }}
                             {{ partial "format-body" . }}
                         {{ end }}
                     </div>
                     <div class="grid-12 grid-7-md">
                         <div class="media-text-block__image">
-                            <picture>
-                            <source sizes="(min-width: 993px) 100vw, 50vw" srcset="https://keynecta.imgix.net/uploads/team-reviewing-building-plans-on-computer-screen.jpg?fm=avif&amp;q=85&amp;width=350&amp;height=300 400w, https://keynecta.imgix.net/uploads/team-reviewing-building-plans-on-computer-screen.jpg?fm=avif&amp;q=85&amp;width=600&amp;height=450 600w, https://keynecta.imgix.net/uploads/team-reviewing-building-plans-on-computer-screen.jpg?fm=avif&amp;q=85&amp;width=800&amp;height=525 800w" type="image/avif">
-                        
-                            <source sizes="(min-width: 993px) 100vw, 50vw" srcset="https://keynecta.imgix.net/uploads/team-reviewing-building-plans-on-computer-screen.jpg?fm=webp&amp;q=85&amp;width=350&amp;height=300 400w, https://keynecta.imgix.net/uploads/team-reviewing-building-plans-on-computer-screen.jpg?fm=webp&amp;q=85&amp;width=600&amp;height=450 600w, https://keynecta.imgix.net/uploads/team-reviewing-building-plans-on-computer-screen.jpg?fm=webp&amp;q=85&amp;width=800&amp;height=525 800w" type="image/webp">
-                        
-                            <source sizes="(min-width: 993px) 100vw, 50vw" srcset="https://keynecta.imgix.net/uploads/team-reviewing-building-plans-on-computer-screen.jpg?fm=jpg&amp;q=85&amp;width=350&amp;height=300 400w, https://keynecta.imgix.net/uploads/team-reviewing-building-plans-on-computer-screen.jpg?fm=jpg&amp;q=85&amp;width=600&amp;height=450 600w, https://keynecta.imgix.net/uploads/team-reviewing-building-plans-on-computer-screen.jpg?fm=jpg&amp;q=85&amp;width=800&amp;height=525 800w" type="image/jpg">
-                        
-                            <img alt="" data-cms-original-src="/uploads/team-reviewing-building-plans-on-computer-screen.jpg" height="450" src="/uploads/team-reviewing-building-plans-on-computer-screen.jpg?_cchid=36db0180d13063ce0ec5afee1db4601d" width="600">   
-                            </picture>
+                            <img src="{{ .image.image_url }}" alt="" height="450" width="600">   
                         </div>
                     </div>
                 </div>

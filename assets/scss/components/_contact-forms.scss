@@ -14,6 +14,7 @@
   background-color: $primary-color;
   color: white;
   padding: $ic-600;
+  padding: clamp($ic-200, 6%, $ic-600);
   // border-top-left-radius: $radius;
   // border-bottom-left-radius: $radius;
   box-shadow: 8px 8px 48px rgba(25, 25, 96, 0.25);
@@ -71,6 +72,7 @@
 .contact-form__form-group textarea,
 .contact-form__form-group select {
   background-color: $secondary-color;
+  color: $white;
   border: none;
   inline-size: 100%;
   padding: $ic-100 $ic-200;
@@ -78,7 +80,7 @@
   block-size: $ic-700;
 
   &:focus {
-    outline: 2px solid $primary-color;
+    outline: 2px solid $black;
   }
 }
 

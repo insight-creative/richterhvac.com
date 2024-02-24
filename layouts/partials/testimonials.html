@@ -7,10 +7,10 @@
     <div class="testimonial wrapper-lg padding-top-4">
         <div class="auto-flexbox-grid gap-sm">
             {{ range .Params.testimonials }}
-            <blockquote class="testimonial__col flow">
+            <blockquote class="testimonial__col">
                 <div class="testimonial__icon">{{ partial "svg-icons/quote.svg" . }}</div>
                 <p class="font-size-xs">{{ .testimonial }}</p>
-                <div>
+                <div class="mt-3">
                     <h3 class="h5 no-margin">{{ .author }}</h3>
                     <p class="font-size-xs">{{ .company }}</p>
                 </div>

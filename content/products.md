@@ -1,20 +1,25 @@
 ---
 title: Products
+layout: products
 menu:
   main:
     weight: 1
-layout: products
 seo:
   page_title: Heating and Cooling Products in Watertown, WI
   meta_description: Learn more about the many excellent Bryant products our Watertown, WI AC and heating technicians service and install. Call us now!
-  featured_image: /products-hero-2500_fborwg.jpg
+  featured_image: /uploads/bryant-technician-showing-couple-new-air-conditioner-1000.jpg
   featured_image_alt: Bryant air conditioning unit
 hero: 
   heading: Heating and Cooling Products
   body: Maintain the comfort of your home with high-efficiency HVAC systems.
   image: 
-    image_url: /products-hero-2500_fborwg.jpg
+    image_url: /uploads/bryant-technician-showing-couple-new-air-conditioner
     image_alt: Bryant air conditioning unit
+  button:
+    enabled: true
+    button_url: /contact/ 
+    button_text:  Request Service
+    open_in_new_tab: false
 intro:
   heading: Browse HVAC Systems and Products
   copy: "Richter Heating & Air Conditioning is proud to carry a top-quality line of Bryant products, ranging from air conditioners and furnaces to humidifiers and controls. Browse our selection of products below or call us for more information."

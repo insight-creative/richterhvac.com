@@ -6,14 +6,19 @@ menu:
 seo:
   page_title: 
   meta_description: 
-  featured_image: /services-hero-2500_nvfeko.jpg
+  featured_image: /uploads/husband-and-wife-sitting-at-table-with-bryant-salesperson-1000.jpg
   featured_image_alt: Bryant salesperson meeting with homeowners at kitchen table
 hero: 
   heading:
-  body: 
+  body: Financing options that allow you to make regular payments over time, rather than paying for the whole system up front.
   image: 
-    image_url: /services-hero-2500_nvfeko.jpg
+    image_url: /uploads/husband-and-wife-sitting-at-table-with-bryant-salesperson
     image_alt: Bryant salesperson meeting with homeowners at kitchen table
+  button:
+    enabled: true
+    button_url: /contact/ 
+    button_text:  Request Service
+    open_in_new_tab: false
 ---
 
 <div>

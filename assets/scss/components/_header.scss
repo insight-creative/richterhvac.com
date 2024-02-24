@@ -51,7 +51,7 @@
 
 .header__mobile-nav-link,
 .header__mobile-dropdown-link {
-  padding: $ic-100 0;
+  padding: $ic--200 0;
   display: block;
   inline-size: 100%;
   transition: color $transition;
@@ -63,7 +63,7 @@
 }
 
 .header__mobile-nav-link {
-  font-size: $ic-200; 
+  font-size: $ic-100; 
   border-bottom: 1px solid $light-gray;
   color: $black;
 }
@@ -367,7 +367,7 @@
 
   &:hover, 
   &:focus {
-    color: $primary-color;
+    color: $black;
   }
 }
 

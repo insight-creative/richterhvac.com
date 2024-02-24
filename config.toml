@@ -9,14 +9,6 @@ summaryLength = 30
 
 [params]
   author = "Richter Heating & Air Conditioning, Inc."
-  # Contact Information
-  phone = "715-358-2644"
-  email = "quality@newnorth.net"
-  address_line_1 = "9752 West Lake Avenue"
-  address_line_2 = "Watertown, WI 54548"
-  google_map_directions = "https://maps.app.goo.gl/CVhd4GvP2so3BCA49"
-  hours = "Mon-Fri: 7:00am - 4:30pm"
-  # Google Analitycs
   minifyBundles = true
 
 # add redirects/headers
