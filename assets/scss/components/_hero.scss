@@ -38,7 +38,7 @@
 .hero__service-request {
   display: none;
 
-  @include breakpoint(md) {
+  @include breakpoint(lg) {
     display: block;
     position: relative;
     z-index: 2;

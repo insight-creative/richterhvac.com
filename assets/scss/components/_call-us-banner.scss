@@ -6,7 +6,7 @@
     padding-block: .25rem;
     inline-size: 100%;
 
-    @include breakpoint(md) {
+    @include breakpoint(lg) {
         display: none;
     }
 }

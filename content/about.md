@@ -19,6 +19,16 @@ hero:
     button_url: /contact/ 
     button_text:  Request Service
     open_in_new_tab: false
+now_hiring: 
+  heading: Now Hiring Service Technicians
+  body: >-
+    The Richter Team is hiring a HVAC Service Technician. We would prefer experience, but would be willing to train the right person. If you, or someone you know is looking for a change, please contact us. Richter Heating is a growing company that offers a competitive wage and nice benefits!
+
+
+    Contact Rosy <a href="tel:920-988-1181">920-988-1181</a>/Bill <a href="tel:920-988-7050">920-988-7050</a>/Adam <a href="tel:920-253-5458">920-253-5458</a> for more information.
+  image: 
+    image_url: /uploads/two-richter-employees-standing-next-to-van.jpg
+    image_alt: Bryant salesperson meeting with homeowners at kitchen table
 ---
 
 <div>

@@ -25,9 +25,9 @@ body {
 
 .site-main {
   opacity: 1;
-  margin-top: 109px;
+  margin-top: $mobileHeader;
 
-  @include breakpoint(md) {
+  @include breakpoint(lg) {
     margin-top: $desktopHeader;
   }
 }

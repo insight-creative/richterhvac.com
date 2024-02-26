@@ -13,7 +13,7 @@
   overflow: visible;
   padding: 10px;
 
-  @include breakpoint(md) {
+  @include breakpoint(lg) {
     display: none;
   }
 }

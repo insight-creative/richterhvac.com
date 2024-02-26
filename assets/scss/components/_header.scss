@@ -7,7 +7,7 @@
   box-shadow: 0 1px 6px rgba(0,0,0,.1);
   padding-block: .5rem;
 
-  @include breakpoint(md) {
+  @include breakpoint(lg) {
     inset-block-start: 0;
   }
 }
@@ -29,7 +29,7 @@
   max-block-size: 0;
   transition: max-block-size .5s ease-in-out;
 
-  @include breakpoint(md) {
+  @include breakpoint(lg) {
     display: none;
   }
 }
@@ -177,7 +177,7 @@
 .header__nav {
   display: none;
 
-  @include breakpoint(md) {
+  @include breakpoint(lg) {
     display: flex; 
     inline-size: 100%;
     padding-left: $ic-500;
@@ -187,7 +187,7 @@
 .header__nav-list {
   display: none;
 
-  @include breakpoint(md) {
+  @include breakpoint(lg) {
     position: static;
     display: flex;
     justify-content: flex-start;
@@ -203,7 +203,7 @@
 .header__nav-list-item {
   position: relative;
 
-  @include breakpoint(md) {
+  @include breakpoint(lg) {
     position: static;
     list-style-type: none;
     margin-top: 0;
@@ -272,7 +272,7 @@
     transition: transform 0.4s ease-out;
   }
 
-  @include breakpoint(md) {
+  @include breakpoint(lg) {
     &:hover,
     &:focus {
       color: $white;
@@ -376,14 +376,14 @@
 }
 
 .collapse {
-  @include breakpoint(md) {
+  @include breakpoint(lg) {
     animation: collapse 0.5s ease forwards;
   }
 }
 
 // Open nav bar on scroll up
 .expand {
-  @include breakpoint(md) {
+  @include breakpoint(lg) {
     animation: expand 0.5s ease forwards;
   }
 }

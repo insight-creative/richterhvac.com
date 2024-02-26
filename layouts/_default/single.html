@@ -7,13 +7,27 @@
         </div>
     </div>
     {{ end }}
-    {{ partial "full-width-feature" . }}
-    {{ if eq .Title "Apply Now" }}
-        <div class="block">
-            <div class="wrapper">
-                {{ partial "forms/application-form" . }}
-            </div>
-        </div>
+    {{ if .Params.now_hiring }}
+        {{ with .Params.now_hiring }}
+            <section class="media-text-block media-text-block--text-left block bg-gray" aria-labelledby="{{ .heading | urlize }}">
+                <div class="wrapper-lg grid gap-lg">
+                    <div class="grid-12 grid-5-md block flow">
+                        <div>
+                            <h2 class="no-margin" id="{{ .heading | urlize }}">{{ .heading }}</h2>
+                            <div class="underline"></div>
+                        </div>
+                        {{ if .body }}
+                            {{ partial "format-body" . }}
+                        {{ end }}
+                    </div>
+                    <div class="grid-12 grid-7-md">
+                        <div class="media-text-block__image">
+                            <img src="{{ .image.image_url }}" alt="" height="450" width="600">   
+                        </div>
+                    </div>
+                </div>
+            </section>
+        {{ end }}
     {{ end }}
     {{ partial "cta" . }}
 {{ end }}
