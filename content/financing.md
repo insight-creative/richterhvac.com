@@ -33,4 +33,4 @@ Here at Richter Heating & Air Conditioning, we want purchasing a new heating and
   <div class="underline"></div>
 </div>
 
-<div style="width: 300px"><a href="https://retailservices.wellsfargo.com/retailprivatelabel/initApp.do?m=0030045090"><img src="/uploads/wells-fargo-financing-options.jpg" alt="" width="300" height="250"></a><p class="font-size-xs text-align-center">Wells Fargo Financial National Bank</p></div>
+<div style="width: 300px"><a href="https://retailservices.wellsfargo.com/retailprivatelabel/initApp.do?m=0030045090" target="_blank"><img src="/uploads/wells-fargo-financing-options.jpg" alt="" width="300" height="250"></a><p class="font-size-xs text-align-center">Wells Fargo Financial National Bank</p></div>

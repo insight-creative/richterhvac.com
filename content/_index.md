@@ -40,20 +40,20 @@ featured:
     image: /uploads/bryant-factory-authorized-dealer-logo-2.png
     image_alt: Bryant Factory Authorized Dealer Logo
     heading: Bryant Authorized Dealer
-    body: As a factory authorized dealer of quality Bryant products since for over 40 years, Richter Heating & Air Conditioning, Inc. knows the value of quality products and equipment. We offer a large selection of Energy Star products ranging from air conditioners and furnaces to air purifiers, ductless split systems and more.
+    body: As a factory authorized dealer of quality Bryant products for over 40 years, Richter Heating & Air Conditioning, Inc. knows the value of quality products and equipment. We offer a large selection of Energy Star products ranging from air conditioners and furnaces to air purifiers, ductless split systems and more.
     button:
       enabled: true
       button_url: /products/
       button_text: View Our Products
       open_in_new_tab: false
 testimonials:
-  - testimonial: In considering the regulations for the commercial addition to our business, Richter Heating and Air Conditioning did “WHATEVER IT TAKES!” to complete our project. Adam, Bill, and Rosy tackled the unusual specifics and time deadlines, often going above and beyond to successfully finish our project on time. All our questions and requests were handled promptly, personally, and professionally. We truly were recipients of “Whatever it takes” and appreciate the awesome job they did for us.
+  - testimonial: In considering the regulations for the commercial addition to our business, Richter Heating and Air Conditioning did “WHATEVER IT TAKES!” to complete our project. Adam, Bill and Rosy tackled the unusual specifics and time deadlines, often going above and beyond to successfully finish our project on time. All our questions and requests were handled promptly, personally and professionally. We truly were recipients of “Whatever it takes” and appreciate the awesome job they did for us.
     author: "- The Robus Family"
     company: "Sugar Island Barn, Watertown, WI"
-  - testimonial: Called Richter on Wednesday for a quote on a new furnace and by Monday morning it was installed during the coldest week of the year! Got quotes from other heating places in Watertown and Richter was the most affordable as well. From quote to the techs installing it everyone did a fantastic job. Would highly recommend them!
+  - testimonial: Called Richter on Wednesday for a quote on a new furnace and by Monday morning it was installed during the coldest week of the year! Got quotes from other heating places in Watertown and Richter was the most affordable as well. From quote to the techs installing it, everyone did a fantastic job. Would highly recommend them!
     author: "- Travis Bitters"
     company: ""
-  - testimonial: Being in Real Estate I work with a lot of great contractors and rarely do I write reviews like I should. Richter Heating deserves a review more than anyone though! This company is amazing! I have been using them for years and refer them to all my clients. If you want great prices, great communication and FAST service there is NO ONE in this area that beats them. Thank you guys for everything you have done for my clients and my family!
+  - testimonial: Being in Real Estate, I work with a lot of great contractors and rarely do I write reviews like I should. Richter Heating deserves a review more than anyone though! This company is amazing! I have been using them for years and refer them to all my clients. If you want great prices, great communication and FAST service there is NO ONE in this area that beats them. Thank you for everything you have done for my clients and my family!
     author: "- Jennifer Schuster-Yanke"
     company: ""
 ---

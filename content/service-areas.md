@@ -26,7 +26,7 @@ hero:
   <div class="underline"></div>
 </div>
 
-Richter Heating and Cooling is your home town HVAC Repair And Installation Company. If you live in Jefferson or Dodge County and need help with your cooling, heating or indoor air quality equipment give the experts at Richter a call today. Our staff lives and works in your community and we promptly return phone calls and show up when we say we will. Find out why our customers love us and rate us so well on independent review sites. At Richter HVAC we service all residential makes and models of heating and cooling equipment. We are also an authorized Bryant dealer. We welcome the opportunity to earn your trust and exceed your expectations. Give us a call today at <a href="tel:920-988-7050">920-988-7050</a>.
+Richter Heating & Air Conditioning is your hometown HVAC repair and installation company. If you live in Jefferson or Dodge County and need help with your cooling, heating or indoor air quality equipment, give the experts at Richter a call today. Our staff lives and works in your community and we promptly return phone calls and show up when we say we will. Find out why our customers love us and rate us so well on independent review sites. At Richter HVAC, we service all residential makes and models of heating and cooling equipment. We are also an authorized Bryant dealer. We welcome the opportunity to earn your trust and exceed your expectations. Give us a call today at <a href="tel:920-988-7050">920-988-7050</a>.
 
 <div class="breakout bg-black flow">
   <div>

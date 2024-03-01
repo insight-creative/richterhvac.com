@@ -47,7 +47,7 @@ benefits:
   body: >-
     * FREE estimates
 
-    * 24 hour emergency service, 7 days a week
+    * 24-hour emergency service, 7 days a week
 
     * City-wide dispatch
 
@@ -72,7 +72,7 @@ benefits:
 cooling_checklist: 
   heading: Cooling Preventative Maintenance Checklist
   body: >-
-    Regular preventative maintenance is the key to ensuring your cooling system operates at peak efficiency, saves you money on energy costs, and extends the lifespan of your equipment. By addressing potential issues before they become costly problems, you can enjoy peace of mind knowing your system is ready to provide consistent, reliable cooling throughout the warmer months.
+    Regular preventative maintenance is the key to ensuring your cooling system operates at peak efficiency, saving you money on energy costs and extending the lifespan of your equipment. By addressing potential issues before they become costly problems, you can enjoy peace of mind knowing your system is ready to provide consistent, reliable cooling throughout the warmer months.
   checklist: >-
     * Inspect outside condenser for proper pressures
 
@@ -109,7 +109,7 @@ cooling_checklist:
 heating_checklist: 
   heading: Heating Preventative Maintenance Checklist
   body: >-
-    A well-maintained heating system is more efficient, uses less energy, and provides consistent comfort throughout your home or office. Embrace our Heating Preventative Maintenance Checklist to safeguard your system's functionality and efficiency.
+    A well-maintained heating system is more efficient, uses less energy and provides consistent comfort throughout your home or office. Embrace our Heating Preventative Maintenance Checklist to safeguard your system's functionality and efficiency.
   checklist: >-
     * Clean pilot assembly
 

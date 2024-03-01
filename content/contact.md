@@ -8,7 +8,7 @@ seo:
   featured_image_alt: Bryant salesperson meeting with homeowners outdoors
 hero: 
   heading: Contact Us
-  body: Whether it's routine maintenance or emergency repairs, our team of certified HVAC professionals are here to help you.
+  body: Whether it's routine maintenance or emergency repairs, our team of certified HVAC professionals is here to help you.
   image: 
     image_url: /uploads/richter-parking-lot-cropped
     image_alt: Bryant salesperson meeting with homeowners outdoors
