@@ -17,7 +17,12 @@
                 <li class="products-list__item">
                     <h3 class="h4">{{ .heading }}</h3>
                     <img src="{{ .image_url }}" alt="Bryant {{ .heading }}" width="640" height="360" loading="lazy">
-                    <a class="products-list__link btn btn--primary" href="{{ .url }}" target="_blank">View {{ .heading }}</a>
+                    {{ if .notes }}
+                    <p class="font-size-sm">{{ .notes | markdownify }}</p>
+                    {{ end }}
+                    {{ if .url }}
+                        <a class="products-list__link btn btn--primary" href="{{ .url }}" target="_blank">View {{ .heading }}</a>
+                    {{ end }}
                 </li>
                 {{ end }}
             </ul>

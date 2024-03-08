@@ -2,15 +2,15 @@
 title: Home
 seo:
   page_title: Heating and Cooling Services in Watertown, WI
-  meta_description: Richter Heating & Air Conditioning, Inc. has over 40 years of experience providing HVAC services in Watertown, WI. Our trained technicians are here to help you. Call us today!
+  meta_description: Richter Heating & Air Conditioning, Inc. has over 50 years of experience providing HVAC services in Watertown, WI. Our trained technicians are here to help you. Call us today!
   featured_image: /quality-home-social-preview_tbrgla.jpg
   featured_image_alt:
 hero: 
   heading: Heating and Cooling Services in Watertown, WI
-  body: Providing Watertown and the surrounding area with quality HVAC services and reliable Bryant products and systems for over 40 years.
+  body: Providing Watertown and the surrounding area with quality HVAC services and reliable Bryant products and systems.
 intro:
-  heading: Committed to Your Comfort Since 1992
-  body: "Richter Heating & Air Conditioning, Inc. has over 40 years of experience providing HVAC services in Watertown, WI. Our trained technicians are here to help you with professional, reliable service and the best solutions for your home. Whether it’s a free estimate on a furnace or air conditioning installation, a system tune up or an emergency repair service, we’re just a phone call away!"
+  heading: Committed to Your Comfort
+  body: "Richter Heating & Air Conditioning, Inc. has over 50 years of experience providing HVAC services in Watertown, WI. Our trained technicians are here to help you with professional, reliable service and the best solutions for your home. Whether it’s a free estimate on a furnace or air conditioning installation, a system tune up or an emergency repair service, we’re just a phone call away!"
   image: knope-heating-and-air-conditioning
   image_alt: Bryant service repairmen meeting with client and looking and furnaces and air conditioning units
   button:
@@ -40,7 +40,7 @@ featured:
     image: /uploads/bryant-factory-authorized-dealer-logo-2.png
     image_alt: Bryant Factory Authorized Dealer Logo
     heading: Bryant Authorized Dealer
-    body: As a factory authorized dealer of quality Bryant products for over 40 years, Richter Heating & Air Conditioning, Inc. knows the value of quality products and equipment. We offer a large selection of Energy Star products ranging from air conditioners and furnaces to air purifiers, ductless split systems and more.
+    body: As a factory authorized dealer of quality Bryant products, Richter Heating & Air Conditioning, Inc. knows the value of quality products and equipment. We offer a large selection of Energy Star products ranging from air conditioners and furnaces to air purifiers, ductless split systems and more.
     button:
       enabled: true
       button_url: /products/

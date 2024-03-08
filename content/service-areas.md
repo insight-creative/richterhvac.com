@@ -10,7 +10,7 @@ seo:
   featured_image_alt: Bryant technician talking with homeowner while checking compression of air conditioner
 hero: 
   heading:
-  body: HVAC repair and installation company in Jefferson or Dodge County
+  body: HVAC repair and installation company servicing Jefferson, Dodge and surrounding counties
   image: 
     image_url: /uploads/bryant-technician-demonstrating-filter-replacement
     image_alt: Bryant technician talking with homeowner while checking compression of air conditioner
@@ -22,11 +22,11 @@ hero:
 ---
 
 <div>
-  <h2 class="no-margin">Over 40 Years of HVAC Experience</h2>
+  <h2 class="no-margin">Over 50 Years of HVAC Experience</h2>
   <div class="underline"></div>
 </div>
 
-Richter Heating & Air Conditioning is your hometown HVAC repair and installation company. If you live in Jefferson or Dodge County and need help with your cooling, heating or indoor air quality equipment, give the experts at Richter a call today. Our staff lives and works in your community and we promptly return phone calls and show up when we say we will. Find out why our customers love us and rate us so well on independent review sites. At Richter HVAC, we service all residential makes and models of heating and cooling equipment. We are also an authorized Bryant dealer. We welcome the opportunity to earn your trust and exceed your expectations. Give us a call today at <a href="tel:920-988-7050">920-988-7050</a>.
+Richter Heating & Air Conditioning is your hometown HVAC repair and installation company. If you live in Jefferson, Dodge or surrounding counties and need help with your cooling, heating or indoor air quality equipment, give the experts at Richter a call today. Our staff lives and works in your community and we promptly return phone calls and show up when we say we will. Find out why our customers love us and rate us so well on independent review sites. At Richter HVAC, we service all residential makes and models of heating and cooling equipment. We are also an authorized Bryant dealer. We welcome the opportunity to earn your trust and exceed your expectations. Give us a call today at <a href="tel:920-988-7050">920-988-7050</a>.
 
 <div class="breakout bg-black flow">
   <div>

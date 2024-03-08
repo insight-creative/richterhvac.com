@@ -34,14 +34,17 @@ products:
     url: https://www.bryant.com/en/us/products/heat-pumps/
     image_url: /uploads/bryant-heat-pump.jpg
   - heading: Indoor Air Quality
-    url: https://www.bryant.com/en/us/products/air-purifiers/
+    url:
     image_url: /uploads/bryant-air-filter.jpg
+    notes: >-
+      Aprilaire humidifiers and dehumidifiers<br>
+      Renewaire ERV and HRV systems
   - heading: Thermostats
-    url: https://www.bryant.com/en/us/products/controls-thermostats/
-    image_url: /uploads/bryant-thermostat.jpg
+    url:
+    image_url: /uploads/honeywell-thermostat.jpg
   - heading: Boilers
-    url: https://www.bryant.com/en/us/products/boilers/
-    image_url: /uploads/bryant-boiler.jpg
+    url: https://www.ibcboiler.com/consumer/products/
+    image_url: /uploads/ibc-boilers.jpg
   - heading: Geothermal
     url: https://www.bryant.com/en/us/products/geothermal/
     image_url: /uploads/bryant-geothermal.jpg

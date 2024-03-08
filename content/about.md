@@ -25,18 +25,18 @@ now_hiring:
     The Richter Team is hiring an HVAC Service Technician. We would prefer experience, but would be willing to train the right person. If you or someone you know is looking for a change, please contact us. Richter Heating is a growing company that offers a competitive wage and nice benefits!
 
 
-    Contact Rosy <a href="tel:920-988-1181">920-988-1181</a>/Bill <a href="tel:920-988-7050">920-988-7050</a>/Adam <a href="tel:920-253-5458">920-253-5458</a> for more information.
+    Call us at <a href="tel:920-988-7050">920-988-7050</a> for more information.
   image: 
-    image_url: /uploads/two-richter-employees-standing-next-to-van.jpg
+    image_url: /uploads/bryant-technician-demonstrating-filter-replacement-1000.jpg
     image_alt: Bryant salesperson meeting with homeowners at kitchen table
 ---
 
 <div>
-  <h2 class="no-margin">Over 40 Years of HVAC Experience</h2>
+  <h2 class="no-margin">Over 50 Years of HVAC Experience</h2>
   <div class="underline"></div>
 </div>
 
-Family-owned and operated, Richter is located in Watertown, WI, and serves Dodge, Jefferson and surrounding counties with expert service in the heating and cooling business. Owners Bill and Adam Richter have over 40 years in the industry and take great pride in the quality workmanship they do. A heating and cooling system is one of the biggest investments you will make as a home-owner and it impacts your monthly energy bill. We are available when you need us. Call <a href="tel:920-988-7050">920-988-7050</a>.
+Family-owned and operated, Richter is located in Watertown, WI, and serves Dodge, Jefferson and surrounding counties with expert service in the heating and cooling business. Owners Bill and Adam Richter have over 50 years in the industry and take great pride in the quality workmanship they do. A heating and cooling system is one of the biggest investments you will make as a home-owner and it impacts your monthly energy bill. We are available when you need us. Call <a href="tel:920-988-7050">920-988-7050</a>.
 
 <div class="breakout bg-black flow">
   <div>
