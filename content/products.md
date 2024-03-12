@@ -34,8 +34,8 @@ products:
     url: https://www.bryant.com/en/us/products/heat-pumps/
     image_url: /uploads/bryant-heat-pump.jpg
   - heading: Indoor Air Quality
-    url:
-    image_url: /uploads/bryant-air-filter.jpg
+    url: https://www.aprilaire.com/whole-house-products/humidifier
+    image_url: /uploads/aprilaire-600-humidifier.jpg
     notes: >-
       Aprilaire humidifiers and dehumidifiers<br>
       Renewaire ERV and HRV systems

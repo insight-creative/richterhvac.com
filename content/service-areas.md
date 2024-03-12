@@ -40,10 +40,10 @@ Richter Heating & Air Conditioning is your hometown HVAC repair and installation
   * Johnson Creek
   * Oconomowoc
   * Ixonia
-  * Richwood
+  * Beaver Dam
   * Fort Atkinson
   * Cambridge
-  * Rome
+  * Juneau
   * Waterloo
   * Sullivan 
   * Lebanon

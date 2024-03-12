@@ -50,10 +50,10 @@ Family-owned and operated, Richter is located in Watertown, WI, and serves Dodge
   * Johnson Creek
   * Oconomowoc
   * Ixonia
-  * Richwood
+  * Beaver Dam
   * Fort Atkinson
   * Cambridge
-  * Rome
+  * Juneau
   * Waterloo
   * Sullivan 
   * Lebanon
