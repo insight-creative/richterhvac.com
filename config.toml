@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://www.richterhvac.com"
 languageCode = "en-us"
 title = "Richter Heating & Air Conditioning, Inc."
 enableRobotsTXT = true
