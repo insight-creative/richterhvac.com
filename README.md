@@ -1,10 +1,10 @@
-# Greiber Heating and Sheet Metal
+# Richter Heating & Cooling
 
 A custom Hugo website built from the Insight Creative, Inc. Hugo starter boilerplate Quintessence. The [Hugo](https://gohugo.io/) boilerplate we use for our projects.
 
 The repo for the boilerplate can be found at https://github.com/insight-creative/Quintessence
 
-**Disclaimer** - This site has been heavily integrated with [Netlify](https://www.netlify.com/), and therefore many features are specific to the Netlify platform and may not work with other hosting providers. This site also uses [NetlifyCMS](https://www.netlifycms.org/) as a CMS. Make sure to run a git pull before starting any work in case the client has made changes on their end.
+**Disclaimer** - This site has been heavily integrated with [Netlify](https://www.netlify.com/), and therefore many features are specific to the Netlify platform and may not work with other hosting providers.
 
 ## Getting Started
 
@@ -47,7 +47,7 @@ Simple as that, you can now start building everything you need. Hugo's server ha
 │   │ sitemap                - Sitemap Template, this is the human readable sitemap.
 │   │ thank-you              - Thank You Template
 │   │ 404.html               - 404 Template
-│   │ index.html              - Homepage Template
+│   │ index.html             - Homepage Template
 │   │ index.headers          - Custom Netlify HTTP headers
 │   │ index.redirects        - Custom Netlify redirect rules
 │   │ robots.txt             - Template for robots.txt
@@ -55,7 +55,7 @@ Simple as that, you can now start building everything you need. Hugo's server ha
 │   │
 │   └──── /_default          - Base templates for list & singular pages
 │   │   │ baseof.html        - Base template
-│   │   │ list.html          - List/taxonomy template
+│   │   │ list.html          - List page template
 │   │   │ single.html        - Singular page/post template
 │   │
 │   └──── /partials          - Partials
@@ -71,8 +71,8 @@ Simple as that, you can now start building everything you need. Hugo's server ha
 │ .gitignore
 │ LICENSE
 │ README.md
-│ config.toml                - Hugo configuration, probably the most important piece in here is the navigation menu
-│ postcss.config.js          - PostCSS and PurgeCSS configuration for Hugo Pipes
+│ config.toml                - Hugo configuration
+│ postcss.config.js          - PostCSS and PurgeCSS configuration for Hugo Pipes setup
 │ netlify.toml               - Netlify configuration
 │ package.json
 ```
