@@ -9,7 +9,7 @@ seo:
   featured_image: /uploads/bryant-technician-demonstrating-filter-replacement-1000.jpg
   featured_image_alt: Bryant technician talking with homeowner while checking air filter and furnace
 hero: 
-  heading:
+  heading: Service Areas
   body: HVAC repair and installation company servicing Jefferson, Dodge and surrounding counties
   image: 
     image_url: /uploads/bryant-technician-demonstrating-filter-replacement

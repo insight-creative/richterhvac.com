@@ -9,7 +9,7 @@ seo:
   featured_image: /uploads/husband-and-wife-sitting-at-table-with-bryant-salesperson-1000.jpg
   featured_image_alt: Bryant salesperson meeting with homeowners at kitchen table
 hero: 
-  heading:
+  heading: Financing
   body: Financing options that allow you to make regular payments over time, rather than paying for the whole system up front.
   image: 
     image_url: /uploads/husband-and-wife-sitting-at-table-with-bryant-salesperson
