@@ -8,13 +8,13 @@ seo:
   page_title: Heating and Cooling Products in Watertown, WI
   meta_description: Learn more about the many excellent Bryant products our Watertown, WI AC and heating technicians service and install. Call us now!
   featured_image: /uploads/bryant-technician-showing-couple-new-air-conditioner-1000.jpg
-  featured_image_alt: Bryant air conditioning unit
+  featured_image_alt: Bryant technician showing a couple a newly installed air conditioner
 hero: 
   heading: Heating and Cooling Products
   body: Maintain the comfort of your home with high-efficiency HVAC systems.
   image: 
     image_url: /uploads/bryant-technician-showing-couple-new-air-conditioner
-    image_alt: Bryant air conditioning unit
+    image_alt: Bryant technician showing a couple a newly installed air conditioner
   button:
     enabled: true
     button_url: /contact/ 

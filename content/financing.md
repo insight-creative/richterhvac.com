@@ -5,7 +5,7 @@ menu:
     weight: 6
 seo:
   page_title: 
-  meta_description: 
+  meta_description: Here at Richter Heating & Air Conditioning, we want purchasing a new heating and cooling system to be as affordable as possible. Explore our financing options for your new HVAC products.
   featured_image: /uploads/husband-and-wife-sitting-at-table-with-bryant-salesperson-1000.jpg
   featured_image_alt: Bryant salesperson meeting with homeowners at kitchen table
 hero: 

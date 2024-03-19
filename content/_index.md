@@ -3,7 +3,7 @@ title: Home
 seo:
   page_title: Heating and Cooling Services in Watertown, WI
   meta_description: Richter Heating & Air Conditioning, Inc. has over 50 years of experience providing HVAC services in Watertown, WI. Our trained technicians are here to help you. Call us today!
-  featured_image: /quality-home-social-preview_tbrgla.jpg
+  featured_image: /richter-social-preview.jpg
   featured_image_alt:
 hero: 
   heading: Heating and Cooling Services in Watertown, WI
@@ -15,7 +15,7 @@ intro:
   image_alt: Bryant service repairmen meeting with client and looking and furnaces and air conditioning units
   button:
     enabled: true
-    button_url: /about-us/
+    button_url: /about/
     button_text: Learn More About Us
     open_in_new_tab: false
 cards:

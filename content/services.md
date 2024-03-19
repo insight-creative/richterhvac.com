@@ -8,13 +8,13 @@ seo:
   page_title: Heating and Cooling Repair Services in Watertown, WI
   meta_description: Whether it's routine maintenance or emergency repairs, our team of certified HVAC professionals is dedicated to ensuring comfort in your home all year round. Call us today!
   featured_image: /uploads/bryant-technician-installing-new-air-conditioner.jpg
-  featured_image_alt: Bryant salesperson meeting with homeowners at kitchen table
+  featured_image_alt: Bryant technician installing a new air conditioner
 hero: 
   heading: Complete Heating and Cooling Services
   body: Whether it's routine maintenance or emergency repairs, our team of certified HVAC professionals is dedicated to ensuring comfort in your home all year round.
   image: 
     image_url: /uploads/bryant-technician-installing-new-air-conditioner
-    image_alt: Bryant salesperson meeting with homeowners at kitchen table
+    image_alt: Bryant technician installing a new air conditioner
   button:
     enabled: true
     button_url: /contact/ 

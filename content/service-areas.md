@@ -7,13 +7,13 @@ seo:
   page_title: 
   meta_description: Learn more about the HVAC professionals at Richter Heating & Air Conditioning, Inc. Our team is ready to help you - call us today to schedule an appointment!
   featured_image: /uploads/bryant-technician-demonstrating-filter-replacement-1000.jpg
-  featured_image_alt: Bryant technician talking with homeowner while checking compression of air conditioner
+  featured_image_alt: Bryant technician talking with homeowner while checking air filter and furnace
 hero: 
   heading:
   body: HVAC repair and installation company servicing Jefferson, Dodge and surrounding counties
   image: 
     image_url: /uploads/bryant-technician-demonstrating-filter-replacement
-    image_alt: Bryant technician talking with homeowner while checking compression of air conditioner
+    image_alt: Bryant technician talking with homeowner while checking air filter and furnace
   button:
     enabled: true
     button_url: /contact/ 
@@ -49,6 +49,6 @@ Richter Heating & Air Conditioning is your hometown HVAC repair and installation
   * Lebanon
   * and more surrounding areas
 
-  <a class="btn btn--primary" href="/contact-us/">Request Service</a>
+  <a class="btn btn--primary" href="/contact/">Request Service</a>
 
 </div>
