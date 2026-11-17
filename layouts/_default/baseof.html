@@ -11,6 +11,40 @@
     <main id="main-content" class="site-main">
       {{ block "main" . }}{{ end }}
     </main>
+
+    <dialog class="site-popup" role="dialog" aria-labelledby="site-popup__title">
+      <div class="site-popup_wrapper | flex flex-column flex-row-m">
+      <div class="site-popup__image | w-100 w-50-m">
+        <picture class="cover-image">
+          <img src="/uploads/richter-heating-with-cardinal-team.jpg" alt="Richter and Cardinal teams together in front of a Richter truck" width="550" height="550" loading="lazy">   
+        </picture>
+      </div>
+      <div class="site-popup__content | w-100 w-50-m">
+        <button class="site-popup__close close-button" title="Close (Esc)" aria-label="Close Promotional Popup">
+          <div class="icon icon-md icon-fill-white">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" aria-hidden="true" id="close"
+              class="icon-hidden">
+              <path
+                d="M289.94,256l95-95A24,24,0,0,0,351,127l-95,95-95-95A24,24,0,0,0,127,161l95,95-95,95A24,24,0,1,0,161,385l95-95,95,95A24,24,0,0,0,385,351Z" />
+            </svg>
+          </div>
+        </button>
+        <div class="site-popup__body flow">
+          <div class="site-popup__hero-logos flex flex-center gap-sm">
+            <img src="/uploads/richter-logo.png" alt="Richter Logo">
+            <span> + </span>
+            <img src="/uploads/cardinal-logo-color.png" alt="Cardinal logo">
+          </div>
+            <header>
+              <h2 class="no-margin">Richter Has Joined the Cardinal Family</h2>
+            </header>
+            <p>After decades serving Watertown, Bill and Rosy Richter have partnered with Cardinal Heating, Cooling, Plumbing & Electric, a family-owned Wisconsin company trusted since 1984. Adam and Sarah Richter are staying on to lead the Watertown team, with the same office on Water Tower Court and the same phone number, <a href="tel:+19209887050">920-988-7050</a>. Now you can count on Cardinal for plumbing and electrical service, too.</p>
+            <a class="btn btn--primary" href="https://www.cardinalhvac.com/welcome-richter/?utm_source=richterhvac&utm_medium=banner&utm_campaign=cardinal-transition" target="_blank">Learn More About Cardinal</a>
+        </div>
+      </div>
+      </div>
+    </dialog>
+
     {{ block "footer" . }}{{ partialCached "footer" . }}{{end}}
   </div>
 </body>

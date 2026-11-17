@@ -34,7 +34,7 @@ cards:
       body: No matter the size of your project, our technicians are dedicated to providing the same quality equipment and service.
     - icon: same-day-service
       heading: Same-Day Service
-      body: We provide emergency 24-hour, same-day service, plus free in-home estimates.
+      body: We provide emergency, same-day service, plus free in-home estimates.
 featured:
   - background: /uploads/bryant-logo-on-air-conditioner.jpg
     image: /uploads/bryant-factory-authorized-dealer-logo-2.png

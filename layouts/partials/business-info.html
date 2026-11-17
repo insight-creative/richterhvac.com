@@ -21,7 +21,7 @@
                 {{ partial "svg-icons/phone.svg" . }}
             </div>
             <div class="business-info__col-content">
-                <p class="b text-primary">Call {{ .Site.Data.site_settings.business_name }}</p>
+                <p class="b text-primary">Call {{ site.Params.author }}</p>
                 <p><a href="tel:{{ .Site.Data.site_settings.phone }}">{{ .Site.Data.site_settings.phone }}</a></p>
             </div>
         </div>

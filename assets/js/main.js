@@ -113,3 +113,50 @@ hasSubMenu.forEach((link) => {
     subMenuLink.addEventListener("blur", closeSubMenu);
   });
 });
+
+const popup = document.querySelector('.site-popup');
+const closePopupBtn = document.querySelector('.site-popup__close');
+const popupBody = document.querySelector('.site-popup__body');
+
+// Initialize popup logic
+document.addEventListener('DOMContentLoaded', showHidePopup);
+
+// Add event listeners if elements exist
+if (popup && closePopupBtn) {
+  closePopupBtn.addEventListener('click', closePopup);
+}
+
+if (popupBody) {
+  popupBody.addEventListener('click', (e) => {
+    const link = e.target.closest('a');
+    if (link) {
+      closePopup();
+    }
+  });
+}
+
+// Show or hide the popup
+function showHidePopup() {
+  if (!popup) return;
+  if (localStorage.getItem("overlayPreference") !== 'hide') {
+    popup.showModal();
+    document.documentElement.style.overflow = 'hidden';
+    document.body.style.overflow = 'hidden';
+  }
+}
+
+// Close the popup
+function closePopup() {
+  if (!popup) return;
+  popup.close();
+  localStorage.setItem("overlayPreference", 'hide');
+  document.documentElement.style.overflow = 'auto'
+  document.body.style.overflow = 'auto'
+}
+
+// Handle Escape key to close popup if open
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape' && popup && popup.open) {
+    closePopup();
+  }
+});

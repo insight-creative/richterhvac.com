@@ -7,7 +7,7 @@
                 <h2>Pages</h2>
                 <ul>
                     {{ range where .Site.Pages "Type" "not in" (slice "blog" "categories" "tags") }}
-                        {{ if not (in (slice "Thank You") .Title) }}
+                        {{ if not (in (slice "Thank You" "Website Credits") .Title) }}
                             <li>
                                 <a href="{{ .RelPermalink }}" title="{{ .Name }}">{{ .Name | markdownify }}</a>
                             </li>

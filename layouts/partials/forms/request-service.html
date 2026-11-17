@@ -1,11 +1,11 @@
 <div class="contact-form-wrapper">
     <div class="emergency-cta">
-        <p class="no-margin">24hr Emergency Service</p>
-        <div class="emergency-phone flex">
+        <p class="no-margin">For Emergency Service Call:</p>
+        <div class="emergency-phone flex flex-center gap-sm">
             <div class="icon-fill-white icon-xxl">
                 {{ partial "svg-icons/phone.svg" . }}
             </div>
-            <a href="tel:{{ .Site.Data.site_settings.phone }}"><h2 class="h3">{{ .Site.Data.site_settings.phone }}</h2></a>
+            <a href="tel:{{ .Site.Data.site_settings.phone }}"><p class="h3 fw-700">{{ .Site.Data.site_settings.phone }}</p></a>
         </div>
     </div>
     <div class="contact-form">

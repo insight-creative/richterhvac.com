@@ -47,7 +47,7 @@ benefits:
   body: >-
     * FREE estimates
 
-    * 24-hour emergency service, 7 days a week
+    * Emergency service, 7 days a week
 
     * City-wide dispatch
 
