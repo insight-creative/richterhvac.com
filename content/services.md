@@ -21,12 +21,12 @@ hero:
     button_text:  Request Service
     open_in_new_tab: false
 intro: 
-  heading: 24/7 Emergency HVAC Service
-  body: Our service department is ready to service your commercial or residential equipment any time, day or night. Richter Heating and Air Conditioning offers flat rate pricing to provide our customers with the best value. We service all brands of equipment, and our service trucks have access to a large inventory of repair parts to save the customer time and money.
+  heading: Emergency HVAC Service
+  body: Our service department is ready to service your commercial or residential equipment. Richter Heating and Air Conditioning offers flat rate pricing to provide our customers with the best value. We service all brands of equipment, and our service trucks have access to a large inventory of repair parts to save the customer time and money.
 breakout: 
   heading: Our Comprehensive HVAC Services
   body: >-
-    * Heating & Cooling Services
+    * Heating and Cooling Services
   
     * Sales, Service and Installation
     
